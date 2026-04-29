@@ -1,0 +1,6 @@
+name = "searxng-search"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[env.production]
+vars = { SEARXNG_ENGINE = "baidu-bing" }
